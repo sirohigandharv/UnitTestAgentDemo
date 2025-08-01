@@ -1,0 +1,141 @@
+.user-entry {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .main-header {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .space-above-large {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .next-button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .next-button.btn-disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .password-validation {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .password-validation p {
+    font-size: 0.9em;
+  }
+  
+  .password-validation ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .password-validation li.green {
+    color: green;
+  }
+  
+  .password-validation li.red {
+    color: red;
+  }
+  
+  .email-validation-message.invalid, .password-validation-message.invalid {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .venue-checkbox-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .legal-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .legal-link:hover {
+    text-decoration: underline;
+  }
+  
+  .privacy-policy {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .checkbox-container {
+    text-align: center;
+  }
+
+  /* Styles for the form switch buttons */
+.form-switch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.switch-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.switch-button.active {
+  border-bottom: 2px solid #007bff;
+}
+
+/* Styles for the forgot password link */
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
